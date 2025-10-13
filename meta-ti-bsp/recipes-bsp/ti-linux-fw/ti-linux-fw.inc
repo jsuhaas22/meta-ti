@@ -21,12 +21,12 @@ TAD5212_FW_VERSION = "1.0.0.0"
 TI_PKA_FW_VERSION = "2.1.0"
 TI_IPC_EXAMPLES_FW_VERSION = "3.52.00.01"
 
-TI_LINUX_FW_SRCREV ?= "27344bea60be4f0410feb1c309b9de3cdc7f8c6d"
+TI_LINUX_FW_SRCREV ?= "5a7a1af8698a6ec46f5d6c79679601ad0d9bc649"
 SRCREV = "${TI_LINUX_FW_SRCREV}"
 
-BRANCH ?= "ti-linux-firmware"
+BRANCH ?= "fix-optee"
 
-TI_LINUX_FW_GIT_URI ?= "git://git.ti.com/git/processor-firmware/ti-linux-firmware.git"
+TI_LINUX_FW_GIT_URI ?= "git://github.com/jsuhaas22/ti-linux-firmware"
 TI_LINUX_FW_GIT_PROTOCOL ?= "https"
 TI_LINUX_FW_GIT_BRANCH ?= "branch=${BRANCH}"
 
